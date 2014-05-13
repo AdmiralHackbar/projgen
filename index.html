@@ -6,12 +6,23 @@
     <title>Project Generator</title>
     <link type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"/>
     <link type="text/css" href="projgen.css" rel="stylesheet">
+    <script type="text/javascript" src="projgen.js"></script>
 </head>
 <body>
+<div class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <div class="navbar-brand">
+                Project Generator
+            </div>
+        </div>
+    </div>
+</div>
 <div class="container" role="main" id="main">
     <div>
-        <h1>Initial Commit</h1>
-        testing testing testing
+        <h3>Can't think of anything?</h3>
+        <button class="btn btn-primary" onclick="page('project');"> Generate a project!</button>
+        <h1 id="project"></h1>
     </div>
 </div>
 </body>
